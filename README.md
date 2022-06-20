@@ -6,8 +6,11 @@ Ron and Hermione are deep in the Forbidden Forest collecting potion ingredients,
 Consider the forest as an N x M grid. Each cell is either empty (represented by .) or blocked by a tree (represented by X). Ron and Hermione can move (together inside a single cell) LEFT, RIGHT, UR and DOWN through empty cells, but they cannot travel through a tree cell. Their starting cell is marked with the character M, and the cell with the portkey is marked with a *. The upper-left corner is indexed as (0, 0).
 
 .X.X......X
+
 .X*.X.XXX.X
+
 .XX.X.XM...
+
 ......XXXX.
 
 In example above, Ron and Hermione are located at index (2, 7) and the portkey is at (1, 2). Each cell is indexed according to Matrix Conventions.
@@ -16,8 +19,11 @@ Hermione decides it's time to find the portkey and leave. They start along the p
 The map from above has been redrawn with the path indicated as a series where M is the starting point (no decision in this case), 1 indicates a decision point and 0 is just a step on the path:
 
 .X.X.10000X
+
 .X*0X0XXX0X
+
 .XX0X0XM01.
+
 ...100XXXX.
 
 There are three instances marked with 1 where Hermione must use her wand.
