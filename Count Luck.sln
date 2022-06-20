@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Luck", "Count Luck\Count Luck.csproj", "{67710208-9479-42CD-9304-6F8AE38D9DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67710208-9479-42CD-9304-6F8AE38D9DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67710208-9479-42CD-9304-6F8AE38D9DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67710208-9479-42CD-9304-6F8AE38D9DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67710208-9479-42CD-9304-6F8AE38D9DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A44FFF-B758-44D9-9FF2-5269582B32E1}
+	EndGlobalSection
+EndGlobal
